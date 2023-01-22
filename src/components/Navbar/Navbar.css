@@ -1,0 +1,59 @@
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+ 
+  justify-content: space-between;
+  
+  
+  margin-left: -70px;
+  width: 1350px;
+  top: 5px;
+  background-color: rgb(253, 163, 79) !important;
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+
+}
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-left: 8rem;
+}
+
+.n-list > ul :hover {
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.n-button {
+  flex: 2;
+  margin-right: 10px;
+  color: red;
+}
+
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+}
