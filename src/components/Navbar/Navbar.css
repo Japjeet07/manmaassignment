@@ -42,14 +42,14 @@
 }
 
 .n-list > ul :hover {
-  color: var(--gray);
+  color: var(--grey);
   cursor: pointer;
 }
 
 .n-button {
   flex: 2;
   margin-right: 10px;
-  color: red;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 480px) {

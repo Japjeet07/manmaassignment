@@ -16,12 +16,12 @@ const navbar = () => {
             </li>
             <li>
               <Link to="services" spy={true} smooth={true}>
-                Serivces
+                About
               </Link>
             </li>
             <li>
               <Link to="works" spy={true} smooth={true}>
-                Experience
+                Services
               </Link>
             </li>
             <li>
@@ -31,13 +31,13 @@ const navbar = () => {
             </li>
             <li>
               <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
+                Reviews
               </Link>
             </li>
           </ul>
         </div>
         <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button" style={{background:"red"}}>Contact</button>
+        <button className="button n-button" style={{background:"red"}}>Enquire Now</button>
         </Link>
       </div>
     </div>
